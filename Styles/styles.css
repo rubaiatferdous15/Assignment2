@@ -1,4 +1,4 @@
-body, h1, h3, p,div {
+body, h1, h3, p {
     margin: 0;
     padding: 0;
 }
@@ -124,11 +124,7 @@ body, h1, h3, p,div {
     right: 400px;
     bottom: 100px;
 
-    /* margin-left: 10px;
-    margin-right: 1000px;
-    margin-top: 15px;
-    margin-bottom: 800px; */
-    /* padding-bottom: 200px; */
+    
     
 }
 
@@ -137,31 +133,7 @@ body, h1, h3, p,div {
     font-weight: 700;
 }
 
-/* .btn-secondary{
-    background-color:#303030;
-    color: white;
-    padding: 8px 8px;
-    font-size: 1.10rem;
-    
-    border-radius: 12px;
-    border: none;
-    
-    
-} */
-/* #experience-badge1{
-    padding: 45px 42px;
-    font-size: 1.5rem;
-    font-weight: 500;
-    
-    position: relative;
-    right: -200px;
-    bottom: 600px;
-}
 
-#experience-year1{
-    font-size: 4rem;
-    font-weight: 700;
-} */
 
 
 .hola{
@@ -213,22 +185,16 @@ body, h1, h3, p,div {
     text-align:center;
 }
 
-.hoina{
-    align-items: center;
-    justify-content: center;
-    text-align:center;
+
+
+.hoina {
     height: 371px;
     width: 1060px;
     background-color: #222222;
-   
     border-radius: 18px;
-    margin-top: 40px;
-     margin-left: 825px;
-    /* margin-right: 600px; */
-    /* align-self: center; */ 
-    
-   
+    margin: 40px auto 0 auto; /* Removed bottom margin by setting it to 0 */
 }
+
 
 .hay{
     font-size:3rem ;
@@ -286,6 +252,7 @@ body, h1, h3, p,div {
 .notun{
     padding-top: 88px;
     padding-bottom: 80px;
+    margin-top: 0;
 
 }
 
@@ -295,21 +262,18 @@ body, h1, h3, p,div {
 }
 
 
-.holona{
-    align-items: center;
-    justify-content: center;
-    text-align:center;
+
+
+.holona {
+   
     height: 604px;
     width: 1060px;
     background-color: #222222;
-   
     border-radius: 18px;
-    
-     margin-left: 825px;
-     margin-top: 40px;
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     grid-template-rows: repeat(2, 1fr); 
+    margin: 40px auto; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
 }
 
 .trainers{
@@ -326,7 +290,7 @@ body, h1, h3, p,div {
 .fitness{
     font-style: italic;
     height: 84px;
-    weight:256px;
+    width: 256px;
     color: #E6533C;
     font-size: 70px;
 }
@@ -340,13 +304,14 @@ body, h1, h3, p,div {
 .start{
     color: #FFFFFF;
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .service{
     color:rgba(255, 255, 255, 0.5); 
     font-size: 23px;
-    row-gap: 20px;
+    margin-top: 20px;
+   
 }
 
 .lasty{
@@ -365,11 +330,13 @@ body, h1, h3, p,div {
     margin-left: 102px;
     margin-right: 152px;
     text-align: left;
+    margin-top: 60px;
     
 }
 
 .fit{
     text-align: left;
+    
 }
 
 .foot{
