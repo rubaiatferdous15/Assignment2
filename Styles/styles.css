@@ -1,4 +1,4 @@
-body, h1, h3, p {
+body, h1, h3, p,div {
     margin: 0;
     padding: 0;
 }
@@ -285,6 +285,7 @@ body, h1, h3, p {
 
 .notun{
     padding-top: 88px;
+    padding-bottom: 80px;
 
 }
 
@@ -353,7 +354,10 @@ body, h1, h3, p {
     align-items: center;
     justify-content: center;
     text-align:center;
-    margin-top: 88px;
+    padding-top: 60px;
+    /* margin-top: 20px; */
+    /* height: 489px;
+    width: 1440px; */
 
 }
 
@@ -368,7 +372,19 @@ body, h1, h3, p {
     text-align: left;
 }
 
-.
+.foot{
+    font-size: 20px;
+    color:rgba(255, 255, 255, 0.5); 
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    background-color: #222222;
+    padding-top: 200px;
+
+
+}
+
+
 
 
 
