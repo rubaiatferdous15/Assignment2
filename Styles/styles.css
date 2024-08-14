@@ -360,18 +360,17 @@ body, h1, h3, p {
     }
 
     
-    .holona{
-        grid-template-columns: repeat(1, 1fr);
-        /* justify-items: center; */
+    .hoina{
+     
+        flex-direction: column;
+       }
 
-    }
-
-    .lasty{
-        margin-top: 1000px;
-    }
+ }
 
     
-}
+
+    
+
 
 
 
